@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page HTML</title>
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="js/functions.js"></script>
+    <script src="js/main.js" defer></script>
+    <script >
+
+        window.onload = function (){
+            
+        }
+
+        // chmaaneha event ?
+        // haja tsir aprés une action 
+        // click sur un boutton // hover sur des elements
+        // tekteb fi west input
+        // nzelt ala el clavier // =====> des evenements
+        let x = {name:"hello"}
+        
+        document.addEventListener("DOMContentLoaded",()=>{
+            //document.querySelector("h1").style.color="yellow"
+            // selectionner l'element HTML
+            const button = document.querySelector("button")
+            // Add the event listener (bind it to the function)
+            // bind it == orbet el button bel fonction
+           // button.addEventListener("click",add)
+            button.onclick = fnc
+        })
+
+        function fnc1(x,y){
+
+        }
+        const fnc = ()=>{
+            console.log("clicked !!!")
+        }
+    </script>
+</head>
+<body>
+    <h1>Titre 1</h1>
+    tittre
+    <button>click me !</button>
+</body>
+</html>
